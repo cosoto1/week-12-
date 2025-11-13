@@ -28,6 +28,15 @@ print(a <= b)   # True
 4 <= 2 + 2
 
 # Write 3 examples that result in True and 3 that result in False.
+c = 10
+d = 20
+
+print(c == d)   
+print(c != d)   
+print(c > d)    
+print(c < d)    
+print(c >= d)   
+print(c <= d)  
 
 # Create a simple grade-checking condition:
 
