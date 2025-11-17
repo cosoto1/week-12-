@@ -68,7 +68,7 @@ print(type(set1))
 set_with_duplicates = {1,2,2,3,4,4,5}
 print(set_with_duplicates)
 
-print(3 in set)
+print(3 in set1)
 print(6 in set2)
 
 truple1 = {1,2,3,4,5}
@@ -94,15 +94,30 @@ print(type(truple1))
 
 
 # Practice Problems:
+# Create a list with 5 of your favorite foods
+foods = ["Pizza", "Sushi", "Tacos", "Pasta", "Ice Cream"]
 
-# Create a list with 5 of your favorite foods.
+# Print the second and last item
+print(foods[1])     # Sushi
+print(foods[-1])    # Ice Cream
 
-# Print the second and last item.
+# Add a new item using .append()
+foods.append("Burgers")
+print(foods)
 
-# Add a new item using .append().
+# Remove the first item using .pop(0)
+foods.pop(0)
+print(foods)
 
-# Remove the first item using .pop(0).
+# Reverse your list using .reverse()
+foods.reverse()
+print(foods)
 
-# Reverse your list using .reverse().
+# Create a list of 3 lists (matrix), and access the middle element
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],   # middle row
+    [7, 8, 9]
+]
 
-# Create a list of 3 lists (matrix), and access the middle element.
+print(matrix[1][1])   # Middle element (5)
