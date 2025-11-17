@@ -4,21 +4,73 @@
 # Topics Covered:
 # Creating lists, indexing, slicing, appending, popping, sorting, reversing.
 
+#collctions are usee t5oi store mulitple items in a string varible\
+#Listes are ordered collectiojns of items 
+# lists are matuble, meaning you can change thier content
+# Lists are crerated using square brackets 
+
 # Examples:
 
-my_list = ['apple', 'banana', 'cherry']
-print(my_list[0])         # apple
-print(my_list[1:])        # ['banana', 'cherry']
+list_of_fruits = ["apple", "banana", "cherry", "date"]
+print(list_of_fruits)
+print(type(list_of_fruits))
 
-my_list.append('grape')
-print(my_list)
+print (list_of_fruits[0])
+print (list_of_fruits[1])
+print (list_of_fruits[-1])
+print (list_of_fruits[1:3])
 
-my_list.pop(1)
-print(my_list)
+list_of_fruits.reverse()
+print(list_of_fruits)
+print(list_of_fruits[::-1])
 
-numbers = [3, 1, 4, 2]
-numbers.sort()
-print(numbers)
+
+list_of_fruits.append("elderberry")
+print(list_of_fruits)
+list_of_fruits.append("mango")
+list_of_fruits.append("orange")
+print(list_of_fruits)
+list_of_fruits.extend(["fig","grape","honeydew"])
+list_of_fruits.reverse()
+print(list_of_fruits)
+
+
+pooped_item = list_of_fruits.pop()
+print(pooped_item)
+print(list_of_fruits)
+
+list_of_fruits.insert(1, "blueberry")
+print(list_of_fruits)
+
+list_of_fruits.remove("banana")
+print(list_of_fruits)
+
+list_of_fruits.insert(3, "pear")
+print(list_of_fruits)
+
+list_of_fruits.sort()
+print(list_of_fruits)
+
+list_of_items = list(range(1, 101))
+print(list_of_items)
+list_of_items = list(range(1, 1001))
+print(list_of_items)
+print(len(list_of_items))
+
+
+# my_list = ['apple', 'banana', 'cherry']
+# print(my_list[0])         # apple
+# print(my_list[1:])        # ['banana', 'cherry']
+
+# my_list.append('grape')
+# print(my_list)
+
+# my_list.pop(1)
+# print(my_list)
+
+# numbers = [3, 1, 4, 2]
+# numbers.sort()
+# print(numbers)
 
 
 # Practice Problems:
