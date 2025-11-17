@@ -58,6 +58,26 @@ print(list_of_items)
 print(len(list_of_items))
 
 
+
+set1 = {1,2,3,4}
+set2 = {"apple", "banana", "cherry"}
+print(set1)
+print(set2)
+print(type(set1))
+
+set_with_duplicates = {1,2,2,3,4,4,5}
+print(set_with_duplicates)
+
+print(3 in set)
+print(6 in set2)
+
+truple1 = {1,2,3,4,5}
+truple2 = ("apple","banana", "cherry")
+print(truple1)
+print(truple2)
+print(type(truple1))
+
+
 # my_list = ['apple', 'banana', 'cherry']
 # print(my_list[0])         # apple
 # print(my_list[1:])        # ['banana', 'cherry']
