@@ -113,11 +113,4 @@ print(foods)
 foods.reverse()
 print(foods)
 
-# Create a list of 3 lists (matrix), and access the middle element
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],   # middle row
-    [7, 8, 9]
-]
-
 print(matrix[1][1])   # Middle element (5)
